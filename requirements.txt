@@ -1,0 +1,33 @@
+# Web framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Data validation and serialization
+pydantic==2.5.0
+
+# Database
+# sqlite3 
+
+# HTTP client 
+httpx==0.25.2
+
+# Additional utilities
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Development and testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+requests==2.31.0
+
+# Logging and monitoring
+structlog==23.2.0  # Enhanced logging
+
+# Optional: For production deployment
+gunicorn==21.2.0  # WSGI server for production
+
+# Optional: For advanced features
+python-dotenv==1.0.0  # Environment variables
+redis==5.0.1  # If Redis is needed for caching
+celery==5.3.4  # If background tasks are needed
